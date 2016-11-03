@@ -58,7 +58,9 @@ public class FileParser {
 		} catch (IOException e) {
 			e.printStackTrace();
 		} finally {
-			co.sendMessage("[§f§lWatchlist§f] §4Watching §a" + i + " §4Players.");
+			co.sendMessage("[§fWatchlist§f] §4Watching §a" + i + " §4Players.");
+			co.sendMessage("§aThis Server is Running §eWatchlist §aby §4ZACX");
+			co.sendMessage("§bFollow me on §bTwitter: §d@DevZacx");
 		}
 
 	}

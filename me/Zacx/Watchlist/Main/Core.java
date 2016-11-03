@@ -14,6 +14,10 @@ import me.Zacx.Watchlist.Files.FileParser;
 
 public class Core extends JavaPlugin {
 
+	/*
+	 * @author Zacx -- Follow @DevZacx on Twitter
+	 */
+	
 	private List<UUID> watched = new ArrayList<UUID>();
 	private List<UUID> admins = new ArrayList<UUID>();
 	private FileParser fp;
